@@ -10,21 +10,21 @@ Step 5: The gTTS model translates the face name into speech indication the resid
 Step 6: The setup is shutdown when the resident closes the program.
 
 Hardware Components:
--Arduino Uno
--Buzzer 
--Connecting Wires
--Resistors
--Breadboard
--USB Connector
--Led 
--Ultrasonic Sensor
+Arduino Uno,
+Buzzer, 
+Connecting Wires,
+Resistors,
+Breadboard,
+USB Connector,
+LED,
+Ultrasonic Sensor.
 
 Software:
--Python
--gTTS
--Arduino IDE
--pygame
--openCV
--pickle
--serial
+Python,
+gTTS,
+Arduino IDE,
+pygame,
+openCV,
+pickle,
+serial.
 
