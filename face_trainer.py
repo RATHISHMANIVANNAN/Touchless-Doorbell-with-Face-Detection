@@ -30,7 +30,7 @@ def getdata():
         for file in files:
 
             # Checking if the file has extention ".png" or ".jpg"
-            if file.endswith("png") or file.endswith("jpg"):
+            if file.endswith("png") or file.endswith("jpeg"):
 
                 # Adding the path of the file with the base path
                 # so you basically have the path of the image 
