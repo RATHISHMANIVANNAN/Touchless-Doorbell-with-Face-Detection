@@ -1,5 +1,5 @@
 # Arduino-Code-Miniproject
-This miniporject connects an touchless doorbell which is created using an ultrasonic sensor and buzzer with face detection model with an additional gTTs feature.
+This miniproject connects an touchless doorbell which is created using an ultrasonic sensor and buzzer with face detection model with an additional gTTs feature.
 
 The working is explained below:
 Step 1: The buzzer is activated and the led is turned on when the ultrasonic sensor detects motion 
