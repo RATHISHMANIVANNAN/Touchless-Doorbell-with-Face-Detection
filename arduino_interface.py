@@ -9,3 +9,4 @@ while True:
   print(detection)
   if 'Motion Detected' in detection:
     detect_face()
+ 
