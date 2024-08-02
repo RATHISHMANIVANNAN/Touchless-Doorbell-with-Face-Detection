@@ -1,30 +1,62 @@
 # Arduino-Code-Miniproject
-This miniproject connects an touchless doorbell which is created using an ultrasonic sensor and buzzer with face detection model with an additional gTTs feature.
 
-The working is explained below:
-Step 1: The buzzer is activated and the led is turned on when the ultrasonic sensor detects motion 
-Step 2: The face recognition code is activated after the doorbell has been triggered
-Step 3: Once the face recognition model is activated it locates the face 
-Step 4: Then the model Classifies the face and prints the output on the terminal
-Step 5: The gTTS model translates the face name into speech indication the resident of the house about the person in front of their doorstep
-Step 6: The setup is shutdown when the resident closes the program.
+This miniproject combines a touchless doorbell using an ultrasonic sensor and buzzer with a face detection model, enhanced with a gTTS (Google Text-to-Speech) feature.
 
-Hardware Components:
-Arduino Uno,
-Buzzer, 
-Connecting Wires,
-Resistors,
-Breadboard,
-USB Connector,
-LED,
-Ultrasonic Sensor.
+## Table of Contents
+- [Overview](#overview)
+- [Working](#working)
+- [Hardware Components](#hardware-components)
+- [Software Requirements](#software-requirements)
+- [Setup and Installation](#setup-and-installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-Software:
-Python,
-gTTS,
-Arduino IDE,
-pygame,
-openCV,
-pickle,
-serial.
+## Overview
+This project integrates hardware and software to create an advanced touchless doorbell system. When motion is detected, the system triggers a face recognition process and uses text-to-speech to inform the resident about the visitor.
 
+## Working
+1. The buzzer is activated, and the LED is turned on when the ultrasonic sensor detects motion.
+2. The face recognition code is activated after the doorbell has been triggered.
+3. The face recognition model locates the face.
+4. The model classifies the face and prints the output on the terminal.
+5. The gTTS model translates the face name into speech, indicating the resident of the house about the person at their doorstep.
+6. The setup is shut down when the resident closes the program.
+
+## Hardware Components
+- Arduino Uno
+- Buzzer
+- Connecting Wires
+- Resistors
+- Breadboard
+- USB Connector
+- LED
+- Ultrasonic Sensor
+
+## Software Requirements
+- Python
+- gTTS
+- Arduino IDE
+- pygame
+- OpenCV
+- pickle
+- serial
+
+## Setup and Installation
+1. **Arduino Setup:**
+   - Connect the ultrasonic sensor, buzzer, LED, and other components to the Arduino Uno as per the circuit diagram.
+   - Upload the provided Arduino code to the Arduino Uno using the Arduino IDE.
+
+2. **Python Environment:**
+   - Install Python on your system if not already installed.
+   - Create a virtual environment for the project (optional but recommended).
+   - Install the required Python libraries:
+     ```bash
+     pip install gTTS pygame opencv-python-headless pickle serial
+     ```
+
+## Usage
+1. Ensure all hardware components are properly connected and the Arduino is powered on.
+2. Run the face recognition script:
+   ```bash
+   python face_recognition.py
