@@ -69,10 +69,10 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 ## files
 The code is divided into multiple files which are explained below:
-arduino_code.ino     - This files the basic code for the touchless doorbell which is made using the Arduino UNO, Ultrasonic Sensor and Buzzer
-arduino_interface.py - This is a python file that integrates the code in embedded C and Python connecting the Arduino UNO Board with Face Detection Code
-face_detection.py    - This file in python contains the python code to identify and box the face using LPBH 
-face_recogniser.py   - The code in this file is responsilbe for recognising the identified face using the haarcascade classifier and also the gTTS module.
-face_trainer.py      - This file is responsible for training the database used by the haarcascade classifier.
-video_to_frame.py    - The code in this file is responsible for converting the input video to frames
+-arduino_code.ino     - This files the basic code for the touchless doorbell which is made using the Arduino UNO, Ultrasonic Sensor and Buzzer
+-arduino_interface.py - This is a python file that integrates the code in embedded C and Python connecting the Arduino UNO Board with Face Detection Code
+-face_detection.py    - This file in python contains the python code to identify and box the face using LPBH 
+-face_recogniser.py   - The code in this file is responsilbe for recognising the identified face using the haarcascade classifier and also the gTTS module.
+-face_trainer.py      - This file is responsible for training the database used by the haarcascade classifier.
+-video_to_frame.py    - The code in this file is responsible for converting the input video to frames
 
