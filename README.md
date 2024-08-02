@@ -1,6 +1,7 @@
+
 # Arduino-Code-Miniproject
 
-This miniproject combines a touchless doorbell using an ultrasonic sensor and buzzer with a face detection model, enhanced with a gTTS (Google Text-to-Speech) feature.
+This miniproject combines a touchless doorbell made using an arduino UNO, ultrasonic sensor and buzzer with a face detection model, enhanced with a gTTS (Google Text-to-Speech) feature.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -10,7 +11,6 @@ This miniproject combines a touchless doorbell using an ultrasonic sensor and bu
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 This project integrates hardware and software to create an advanced touchless doorbell system. When motion is detected, the system triggers a face recognition process and uses text-to-speech to inform the resident about the visitor.
@@ -60,3 +60,8 @@ This project integrates hardware and software to create an advanced touchless do
 2. Run the face recognition script:
    ```bash
    python face_recognition.py
+   ```
+3. The system will start detecting motion and trigger the face recognition process upon detecting a visitor.
+
+## Contributing
+Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
