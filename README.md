@@ -11,7 +11,7 @@ This miniproject combines a touchless doorbell made using an arduino UNO, ultras
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [Files](#files)
+- [Files](#Files)
 
 ## Overview
 This project integrates hardware and software to create an advanced touchless doorbell system. When motion is detected, the system triggers a face recognition process and uses text-to-speech to inform the resident about the visitor.
@@ -67,12 +67,15 @@ This project integrates hardware and software to create an advanced touchless do
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
 
-## files
--The code is divided into multiple files which are explained below:
--arduino_code.ino     - This files the basic code for the touchless doorbell which is made using the Arduino UNO, Ultrasonic Sensor and Buzzer
--arduino_interface.py - This is a python file that integrates the code in embedded C and Python connecting the Arduino UNO Board with Face Detection Code
--face_detection.py    - This file in python contains the python code to identify and box the face using LPBH 
--face_recogniser.py   - The code in this file is responsilbe for recognising the identified face using the haarcascade classifier and also the gTTS module.
--face_trainer.py      - This file is responsible for training the database used by the haarcascade classifier.
--video_to_frame.py    - The code in this file is responsible for converting the input video to frames
+## Files
+
+The code is divided into multiple files which are explained below:
+
+- `arduino_code.ino`     - This file contains the basic code for the touchless doorbell, which is made using the Arduino UNO, Ultrasonic Sensor, and Buzzer.
+- `arduino_interface.py` - This is a Python file that integrates the code in embedded C and Python, connecting the Arduino UNO Board with the Face Detection Code.
+- `face_detection.py`    - This Python file contains the code to identify and box the face using LBPH.
+- `face_recogniser.py`   - The code in this file is responsible for recognizing the identified face using the Haar Cascade classifier and also the gTTS module.
+- `face_trainer.py`      - This file is responsible for training the database used by the Haar Cascade classifier.
+- `video_to_frame.py`    - The code in this file is responsible for converting the input video to frames.
+
 
