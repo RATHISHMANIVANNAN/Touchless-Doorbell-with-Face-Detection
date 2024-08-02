@@ -68,7 +68,7 @@ This project integrates hardware and software to create an advanced touchless do
 Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
 
 ## files
-The code is divided into multiple files which are explained below:
+-The code is divided into multiple files which are explained below:
 -arduino_code.ino     - This files the basic code for the touchless doorbell which is made using the Arduino UNO, Ultrasonic Sensor and Buzzer
 -arduino_interface.py - This is a python file that integrates the code in embedded C and Python connecting the Arduino UNO Board with Face Detection Code
 -face_detection.py    - This file in python contains the python code to identify and box the face using LPBH 
